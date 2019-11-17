@@ -2800,6 +2800,8 @@ def getPlayerData(profile,opposition="",host="",dir="./data",file="player001.csv
              str1 = str1 + "home_or_away=1;"
         elif i == 2:
              str1 = str1 + "home_or_away=2;"
+        elif i == 3:
+             str1 = str1 + "home_or_away=3;"  
     HA= str1
     
     # Set the type batting or bowling
